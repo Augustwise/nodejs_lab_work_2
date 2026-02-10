@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Команда студентів</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <h1>Сайт бригади</h1>
+  <p>У бригаді <%= students.length %> учасників.</p>
+
+  <img src="assets/images/students.png" alt="Фото бригади">
+
+  <table>
+    <thead>
+      <tr>
+        <th>Ім'я</th>
+        <th>Роль</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% students.forEach((student) => { %>
+        <tr>
+          <td><a href="/students/<%= student.id %>"><%= student.name %></a></td>
+          <td><%= student.role %></td>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+
+  <p><a href="/info.html">Перейти на статичну сторінку</a></p>
+  <p><a href="https://expressjs.com/" target="_blank">Офіційний сайт Express.js</a></p>
+</body>
+</html>
