@@ -1,5 +1,7 @@
 ## Scriptlet Tags
 
+[DEMO LINK](https://nodejs-lab-work-2.onrender.com/)
+
 | Тег | Синтаксис | Опис | Приклад використання |
 |-----|-----------|------|---------------------|
 | **Scriptlet** | `<% код %>` | Виконує JavaScript код без виводу в HTML. Використовується для логіки (цикли, умови). | `<% students.forEach((student) => { %>` |
