@@ -17,7 +17,7 @@ const students = [
     name: "Несміян Олександр",
     role: "Frontend Developer",
     group: "ІА-44",
-    hobby: "Диван"
+    hobby: "Розробка ігор"
   },
   {
     id: 3,
