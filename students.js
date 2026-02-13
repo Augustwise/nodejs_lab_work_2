@@ -25,7 +25,7 @@ const students = [
     name: "Буцик Богдан",
     role: "QA Engineer",
     group: "ІА-44",
-    hobby: "--------"
+    hobby: "ROCK AND STONE!!!"
   },
   {
     id: 5,
