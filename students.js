@@ -18,7 +18,7 @@ const students = [
     name: "Гладіголов Дмитро",
     role: "Backend Developer",
     group: "ІА-44",
-    hobby: "---------"
+    hobby: "sleaping"
   },
   {
     id: 4,
