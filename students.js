@@ -33,6 +33,13 @@ const students = [
     role: "DevOps",
     group: "ІА-44",
     hobby: "---------"
+  },
+  {
+    id: 6,
+    name: "Захаров Олег",
+    role: "Backend Developer",
+    group: "ІА-44",
+    hobby: "hoi4"
   }
 ];
 
