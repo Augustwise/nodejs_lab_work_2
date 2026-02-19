@@ -32,7 +32,7 @@ const students = [
     name: "Лобко Олексій",
     role: "DevOps",
     group: "ІА-44",
-    hobby: "---------"
+    hobby: "C++"
   },
   {
     id: 6,
